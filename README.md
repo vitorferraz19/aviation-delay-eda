@@ -2,6 +2,29 @@
 
 ## Exploratory Data Analysis of Airline Delay Patterns Using Public BTS Data
 
+## Index
+
+- [Project Objective](#project-objective)
+- [Dataset](#dataset)
+- [Scope and Framing](#scope-and-framing)
+- [Tools and Libraries](#tools-and-libraries)
+- [Analysis Structure](#analysis-structure)
+- [Key Findings](#key-findings)
+  - [1. Delay values are highly unevenly distributed](#1-delay-values-are-highly-unevenly-distributed)
+  - [2. Total delay is concentrated in a small number of delay causes](#2-total-delay-is-concentrated-in-a-small-number-of-delay-causes)
+  - [3. Delay-cause profiles differ across anonymised operators](#3-delay-cause-profiles-differ-across-anonymised-operators)
+- [Operational Interpretation](#operational-interpretation)
+- [Visualisations](#visualisations)
+- [Limitations](#limitations)
+- [Possible Next Steps](#possible-next-steps)
+- [How to Run the Notebook](#how-to-run-the-notebook)
+- [Repository Structure](#repository-structure)
+- [What This Project Demonstrates](#what-this-project-demonstrates)
+- [Credits](#credits)
+- [License](#license)
+
+---
+
 This project explores airline delay patterns using public Bureau of Transportation Statistics (BTS) Reporting Carrier On-Time Performance data from **January 2023**.
 
 The goal is not to rank airlines or assign delay responsibility to any single function. Instead, this analysis uses exploratory data analysis (EDA) to understand how operational pressure becomes visible through delay distributions, delay-cause categories, and operator-level delay profiles.
